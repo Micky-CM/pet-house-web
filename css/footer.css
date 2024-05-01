@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(130deg, rgba(64,49,43,1) 0%, rgba(65,50,43,1) 10%, rgba(27,26,31,1) 100%);
+  color: var(--white);
+  padding: 2rem;
+}
+.footer__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.footer__text {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.footer__list {
+  display: flex;
+  gap: 1.4rem;
+}
+.footer__icon {
+  width: 4rem;
+  height: 4rem;
+}
+.footer__box__img {
+  max-width: 14rem;
+  height: auto;
+}

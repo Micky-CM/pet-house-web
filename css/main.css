@@ -1,0 +1,19 @@
+/* Import all css files */
+@import url(/css/navbar.css);
+@import url(/css/hero.css);
+@import url(/css/about.css);
+@import url(/css/pets.css);
+@import url(/css/donation.css);
+@import url(/css/footer.css);
+
+/* Dew Palette */
+:root {
+  --pet-orange: #F2CDB3;
+  --soft-orange: #fcf5ef;
+  --white: #F6F6F6;
+  --text-black: #3E3E3E;
+}
+/* Text size in rem */
+html {
+  font-size: 62.5%;
+}

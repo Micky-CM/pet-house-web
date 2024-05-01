@@ -1,0 +1,42 @@
+.donation {
+  display: flex;
+  flex-direction: column-reverse;
+  color: var(--text-black);
+  width: 100%;
+  height: auto;
+  padding: 2rem 2rem 3rem;
+}
+.donation__box {
+  display: flex;
+  justify-content: center;
+}
+.donation__box__img {
+  width: 90%;
+  max-height: 36rem;
+  object-fit: cover;
+}
+.donatation__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.donation__button {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--text-black);
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+  width: 18rem;
+  background-color: var(--pet-orange);
+  box-shadow: 0.2rem 0.2rem 0.4rem black;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  margin-top: 1rem;
+}
+.donation__button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: #F6F6F6;
+}

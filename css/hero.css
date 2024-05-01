@@ -1,0 +1,55 @@
+.hero {
+  display: flex;
+  background: linear-gradient(130deg, rgba(64,49,43,1) 0%, rgba(65,50,43,1) 10%, rgba(27,26,31,1) 100%);
+  width: 100%;
+  height: 450px;
+  padding: 0 2rem;
+}
+.hero__cta {
+  flex: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  color: var(--white);
+}
+.hero__title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.hero__text {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.hero__button {
+  align-self: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+  width: 16rem;
+  height: auto;
+  background-color: var(--pet-orange);
+  box-shadow: 0.2rem 0.2rem 0.4rem black;
+  border-radius: 1rem;
+  padding: 0.8rem;
+}
+.hero__button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--white);
+}
+.hero__img {
+  background-image: url('/assets/img/beagle-hero.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 40%;
+  padding: 0 3rem;
+  margin-top: 3rem;
+}
