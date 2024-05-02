@@ -28,10 +28,39 @@
   height: 3rem;
 }
 
+
+/* Tablet media query*/
+  /* No modifications necessary */
+
+/* Desktop media query */
 /*
-@media screen and (min-width:750px) {
+@media screen and (min-width: 1024px) {
+  .inactive {
+    display: block;
+  }
   .menu__burguer {
     display: none;
+  }
+  //
+    .navbar__title:hover {
+    transform: scale(1.1);
+    text-shadow: 0.5rem 0.5rem 1rem black;
+  }
+  .menu__list {
+    align-items: center;
+    gap: 2rem;
+  }
+  .menu__list__item {
+    font-size: 1.6rem;
+    font-weight: 900;
+  }
+  .menu__list__item:hover {
+    background: var(--primary-gray);
+    border-radius: 0.5rem;
+    transform: scale(1.1);
+    color: var(--primary-red);
+    font-weight: bolder;
+    padding: 1rem;
   }
 }
 */

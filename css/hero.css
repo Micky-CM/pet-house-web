@@ -2,7 +2,7 @@
   display: flex;
   background: linear-gradient(130deg, rgba(64,49,43,1) 0%, rgba(65,50,43,1) 10%, rgba(27,26,31,1) 100%);
   width: 100%;
-  height: 450px;
+  min-height: 46rem;
   padding: 0 2rem;
 }
 .hero__cta {
@@ -16,6 +16,7 @@
 .hero__title {
   text-align: center;
   font-family: "Roboto", sans-serif;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
   font-size: 2.6rem;
   font-weight: 600;
   margin-bottom: 2rem;
@@ -29,9 +30,9 @@
 .hero__button {
   align-self: center;
   font-family: "Lato", sans-serif;
+  color: var(--text-black);
   font-size: 1.6rem;
-  font-weight: 600;
-  text-shadow: 0.1rem 0.1rem 0.2rem black;
+  font-weight: 800;
   width: 16rem;
   height: auto;
   background-color: var(--pet-orange);
@@ -44,12 +45,26 @@
   font-weight: bold;
   color: var(--white);
 }
-.hero__img {
-  background-image: url('/assets/img/beagle-hero.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  width: 40%;
-  padding: 0 3rem;
-  margin-top: 3rem;
+
+
+/* Tablet media query */
+@media screen and (min-width: 601px) {
+  .hero__title {
+    text-align: start;
+  }
+  .hero__box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .hero__box__img {
+    max-width: 32rem;
+    max-height: 40rem;
+    object-fit: cover;
+  }
 }
+
+
+/* Media query para desktop */
+/*
+@media screen and (min-width: 1024px)

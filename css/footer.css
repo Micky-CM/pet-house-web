@@ -1,17 +1,16 @@
 .footer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   width: 100%;
   height: auto;
   background: linear-gradient(130deg, rgba(64,49,43,1) 0%, rgba(65,50,43,1) 10%, rgba(27,26,31,1) 100%);
   color: var(--white);
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 .footer__description {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 .footer__text {
   font-family: "Lato", sans-serif;
@@ -27,7 +26,20 @@
   width: 4rem;
   height: 4rem;
 }
+.footer__box {
+  display: flex;
+  justify-content: center;
+}
 .footer__box__img {
   max-width: 14rem;
   height: auto;
+}
+
+
+/* Tablet media query */
+@media screen and (min-width: 601px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
