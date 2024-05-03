@@ -38,14 +38,27 @@
 @media screen and (min-width: 601px) {
   .about {
     flex-direction: row;
+    align-items: center;
   }
   .about__box__img {
-    max-width: 80rem;
+    max-width: 90rem;
     height: auto;
-    margin: 0 1rem;
+    margin: 1rem;
   }
 }
 
 /* Desktop media query */
-/*
 @media screen and (min-width: 1024px) {
+  .about {
+    padding: 4rem 6rem;
+  }
+  .about__title, .pets__title, .donation__title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  .about__text {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+}

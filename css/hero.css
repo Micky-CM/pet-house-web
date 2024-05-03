@@ -6,7 +6,6 @@
   padding: 0 2rem;
 }
 .hero__cta {
-  flex: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +29,7 @@
 .hero__button {
   align-self: center;
   font-family: "Lato", sans-serif;
-  color: var(--text-black);
+  color: var(--dark-brown);
   font-size: 1.6rem;
   font-weight: 800;
   width: 16rem;
@@ -40,11 +39,6 @@
   border-radius: 1rem;
   padding: 0.8rem;
 }
-.hero__button:hover {
-  cursor: pointer;
-  font-weight: bold;
-  color: var(--white);
-}
 
 
 /* Tablet media query */
@@ -52,19 +46,46 @@
   .hero__title {
     text-align: start;
   }
+  .hero__cta {
+    padding: 2rem 0;
+    margin-left: 3rem;
+  }
   .hero__box {
     display: flex;
-    justify-content: center;
     align-items: flex-end;
+    justify-content: flex-end;
+    max-width: 30rem;
+    margin-bottom: 6rem;
   }
   .hero__box__img {
-    max-width: 32rem;
-    max-height: 40rem;
+    width: 100%;
+    height: auto;
     object-fit: cover;
   }
 }
 
-
 /* Media query para desktop */
-/*
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding: 0 4rem;
+  }
+  .hero__box {
+    max-width: 40rem;
+  }
+  .hero__title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .hero__text {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .hero__button {
+    width: 18rem;
+    font-size: 1.8rem;
+  }
+  .hero__button:hover {
+    transform: scale(1.1);
+    box-shadow: 0.5rem 0.5rem 1rem black;
+  }
+}

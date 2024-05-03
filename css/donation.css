@@ -35,11 +35,6 @@
   padding: 0.8rem;
   margin-top: 1rem;
 }
-.donation__button:hover {
-  cursor: pointer;
-  font-weight: bold;
-  color: #F6F6F6;
-}
 
 
 /* Tablet media query */
@@ -55,3 +50,13 @@
 }
 
 /* Desktop media query */
+@media screen and (min-width: 1024px) {
+  .donatation {
+    padding: 2rem 6rem 3rem;
+  }
+  .donation__button:hover {
+    transform: scale(1.1);
+    box-shadow: 0.5rem 0.5rem 1rem black;
+    font-weight: 900;
+  }
+}
