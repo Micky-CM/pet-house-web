@@ -1,10 +1,10 @@
 /* Import all css files */
-@import url(../css/navbar.css);
-@import url(../css/hero.css);
-@import url(../css/about.css);
-@import url(../css/pets.css);
-@import url(../css/donation.css);
-@import url(../css/footer.css);
+@import url(css/navbar.css);
+@import url(css/hero.css);
+@import url(css/about.css);
+@import url(css/pets.css);
+@import url(css/donation.css);
+@import url(css/footer.css);
 
 /* Dew Palette */
 :root {
